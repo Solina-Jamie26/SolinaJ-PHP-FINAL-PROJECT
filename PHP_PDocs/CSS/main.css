@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Optional: Add styling to the logo image */
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+/* Optional: Add a background color and text color to the active link */
+.nav-links li a.active {
+  background-color: #333;
+  color: #fff;
+}
+
+
+
